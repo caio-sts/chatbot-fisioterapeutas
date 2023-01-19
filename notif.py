@@ -1,10 +1,6 @@
 from twilio.rest import Client
 import os, json
 
-#'AC332c936836a070c76edf8c7422367e76'
-#'fa4f2cf2eddb652d5b4eee31852b4876'
-
-
 def notify(arq):
     account_sid = os.environ['account_sid']
     auth_token = os.environ['auth_token']
